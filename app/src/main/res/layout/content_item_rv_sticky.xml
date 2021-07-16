@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_item_rv_sticky">
+
+    <TextView
+        android:id="@+id/tvStar"
+        android:background="@color/colorSmoke"
+        android:textSize="30sp"
+        android:text="\uf005"
+        android:textColor="@color/colorStar"
+        android:layout_width="@dimen/size_item_rv_sticky"
+        android:gravity="center"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvEmoji"
+        android:textSize="30sp"
+        android:background="@drawable/bg_circle_pink"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="\uf59c"
+        android:layout_margin="5dp"
+        android:layout_width="@dimen/emoji_size"
+        android:layout_height="@dimen/emoji_size"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:textColor="@android:color/black"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
