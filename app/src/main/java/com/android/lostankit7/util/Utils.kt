@@ -5,7 +5,7 @@ import android.graphics.Typeface
 import android.widget.TextView
 import android.widget.Toast
 
-fun Context.showToast(message: String){
+fun Context.toast(message: String){
     Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
 }
 

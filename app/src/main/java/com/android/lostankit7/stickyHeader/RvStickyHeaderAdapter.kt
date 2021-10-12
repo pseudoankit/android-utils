@@ -5,10 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.lostankit7.databinding.HeaderItemRvStickyBinding
 import com.android.lostankit7.databinding.ContentItemRvStickyBinding
+import com.android.lostankit7.databinding.HeaderItemRvStickyBinding
 import com.android.lostankit7.util.asFontAwesome
-import com.android.lostankit7.util.showToast
 
 class RvStickyHeaderAdapter(private val mContext: Context, private val mList: MutableList<RvStickyModel>) : RecyclerView.Adapter<RvStickyHeaderAdapter.Companion.BaseViewHolder<*>>() {
 
